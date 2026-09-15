@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "title": "Customer Revenue Concentration",
+    "currency": "USD",
+    "unit": "monthly booked revenue",
+    "months": 18,
+    "customers": 16,
+    "asOf": "2026-09",
+    "notes": "Sample operating data for a public concentration tracker. Not a live company filing."
+  },
+  "targets": {
+    "top10Share": 0.8,
+    "largestCustomerShare": 0.18,
+    "hhi": 850
+  },
+  "customers": [
+    {
+      "id": "northstar",
+      "name": "Northstar Logistics"
+    },
+    {
+      "id": "helix",
+      "name": "Helix Biotech"
+    },
+    {
+      "id": "cascade",
+      "name": "Cascade Retail Group"
+    },
+    {
+      "id": "pinnacle",
+      "name": "Pinnacle Energy"
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor & Co"
+    },
+    {
+      "id": "vertex",
+      "name": "Vertex Payments"
+    },
+    {
+      "id": "lumen",
+      "name": "Lumen Health"
+    },
+    {
+      "id": "ironclad",
+      "name": "Ironclad Insurance"
+    },
+    {
+      "id": "maplewood",
+      "name": "Maplewood Foods"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas Construction"
+    },
+    {
+      "id": "brightline",
+      "name": "Brightline Media"
+    },
+    {
+      "id": "solstice",
+      "name": "Solstice Aviation"
+    },
+    {
+      "id": "redwood",
+      "name": "Redwood Software"
+    },
+    {
+      "id": "crestview",
+      "name": "Crestview Hotels"
+    },
+    {
+      "id": "oakember",
+      "name": "Oak & Ember"
+    },
+    {
+      "id": "pacific",
+      "name": "Pacific Grid"
+    }
+  ],
+  "months": [
+    {
+      "month": "2025-04",
+      "revenue": {
+        "northstar": 397214,
+        "helix": 351291,
+        "cascade": 276301,
+        "pinnacle": 233486,
+        "harbor": 199367,
+        "vertex": 174599,
+        "lumen": 167667,
+        "ironclad": 143289,
+        "maplewood": 137013,
+        "atlas": 124318,
+        "brightline": 125378,
+        "solstice": 109692,
+        "redwood": 93828,
+        "crestview": 83715,
+        "oakember": 75816,
+        "pacific": 68846
+      }
+    },
+    {
+      "month": "2025-05",
+      "revenue": {
+        "northstar": 391898,
+        "helix": 377212,
+        "cascade": 280533,
+        "pinnacle": 247124,
+        "harbor": 207385,
+        "vertex": 200528,
+        "lumen": 169556,
+        "ironclad": 145317,
+        "maplewood": 152333,
+        "atlas": 133183,
+        "brightline": 127193,
+        "solstice": 118579,
+        "redwood": 101316,
+        "crestview": 85894,
+        "oakember": 81728,
+        "pacific": 74893
+      }
+    },
+    {
+      "month": "2025-06",
+      "revenue": {
+        "northstar": 425169,
+        "helix": 381178,
+        "cascade": 292255,
+        "pinnacle": 230981,
+        "harbor": 198847,
+        "vertex": 190213,
+        "lumen": 184138,
+        "ironclad": 171645,
+        "maplewood": 152197,
+        "atlas": 124475,
+        "brightline": 116720,
+        "solstice": 120698,
+        "redwood": 107251,
+        "crestview": 82601,
+        "oakember": 73532,
+        "pacific": 68481
+      }
+    },
+    {
+      "month": "2025-07",
+      "revenue": {
+        "northstar": 430277,
+        "helix": 366206,
+        "cascade": 294752,
+        "pinnacle": 241435,
+        "harbor": 204059,
+        "vertex": 186954,
+        "lumen": 177960,
+        "ironclad": 169730,
+        "maplewood": 149856,
+        "atlas": 122770,
+        "brightline": 122689,
+        "solstice": 127912,
+        "redwood": 103677,
+        "crestview": 84935,
+        "oakember": 76318,
+        "pacific": 70196
+      }
+    },
+    {
+      "month": "2025-08",
+      "revenue": {
+        "northstar": 449261,
+        "helix": 372234,
+        "cascade": 322572,
+        "pinnacle": 247640,
+        "harbor": 195800,
+        "vertex": 187171,
+        "lumen": 184935,
+        "ironclad": 155338,
+        "maplewood": 152678,
+        "atlas": 129053,
+        "brightline": 119401,
+        "solstice": 118330,
+        "redwood": 111973,
+        "crestview": 85221,
+        "oakember": 74402,
+        "pacific": 66077
+      }
+    },
+    {
+      "month": "2025-09",
+      "revenue": {
+        "northstar": 443836,
+        "helix": 371294,
+        "cascade": 307072,
+        "pinnacle": 244391,
+        "harbor": 208074,
+        "vertex": 199332,
+        "lumen": 169339,
+        "ironclad": 169121,
+        "maplewood": 153960,
+        "atlas": 129954,
+        "brightline": 126949,
+        "solstice": 124316,
+        "redwood": 103453,
+        "crestview": 78861,
+        "oakember": 79507,
+        "pacific": 73272
+      }
+    },
+    {
+      "month": "2025-10",
+      "revenue": {
+        "northstar": 454558,
+        "helix": 360057,
+        "cascade": 302444,
+        "pinnacle": 255419,
+        "harbor": 196119,
+        "vertex": 197430,
+        "lumen": 160164,
+        "ironclad": 157128,
+        "maplewood": 136228,
+        "atlas": 117757,
+        "brightline": 119442,
+        "solstice": 121275,
+        "redwood": 102006,
+        "crestview": 80378,
+        "oakember": 80902,
+        "pacific": 67239
+      }
+    },
+    {
+      "month": "2025-11",
+      "revenue": {
+        "northstar": 403286,
+        "helix": 357652,
+        "cascade": 283301,
+        "pinnacle": 231276,
+        "harbor": 202338,
+        "vertex": 205929,
+        "lumen": 180320,
+        "ironclad": 143411,
+        "maplewood": 144070,
+        "atlas": 114728,
+        "brightline": 119531,
+        "solstice": 113110,
+        "redwood": 95215,
+        "crestview": 81321,
+        "oakember": 73465,
+        "pacific": 67019
+      }
+    },
+    {
+      "month": "2025-12",
+      "revenue": {
+        "northstar": 384150,
+        "helix": 350639,
+        "cascade": 317903,
+        "pinnacle": 246449,
+        "harbor": 206673,
+        "vertex": 206407,
+        "lumen": 166752,
+        "ironclad": 145925,
+        "maplewood": 148092,
+        "atlas": 114715,
+        "brightline": 127942,
+        "solstice": 105622,
+        "redwood": 92946,
+        "crestview": 85187,
+        "oakember": 67607,
+        "pacific": 63369
+      }
+    },
+    {
+      "month": "2026-01",
+      "revenue": {
+        "northstar": 517203,
+        "helix": 315602,
+        "cascade": 288568,
+        "pinnacle": 244763,
+        "harbor": 196360,
+        "vertex": 199631,
+        "lumen": 174890,
+        "ironclad": 141060,
+        "maplewood": 145938,
+        "atlas": 121389,
+        "brightline": 125724,
+        "solstice": 118277,
+        "redwood": 102359,
+        "crestview": 78373,
+        "oakember": 70747,
+        "pacific": 63552
+      }
+    },
+    {
+      "month": "2026-02",
+      "revenue": {
+        "northstar": 513053,
+        "helix": 328484,
+        "cascade": 283115,
+        "pinnacle": 239046,
+        "harbor": 185925,
+        "vertex": 188918,
+        "lumen": 162770,
+        "ironclad": 150039,
+        "maplewood": 129696,
+        "atlas": 113337,
+        "brightline": 125874,
+        "solstice": 112715,
+        "redwood": 96834,
+        "crestview": 79011,
+        "oakember": 77585,
+        "pacific": 64513
+      }
+    },
+    {
+      "month": "2026-03",
+      "revenue": {
+        "northstar": 495855,
+        "helix": 335313,
+        "cascade": 312290,
+        "pinnacle": 224988,
+        "harbor": 199661,
+        "vertex": 209918,
+        "lumen": 160948,
+        "ironclad": 145888,
+        "maplewood": 151060,
+        "atlas": 116128,
+        "brightline": 115430,
+        "solstice": 117237,
+        "redwood": 104510,
+        "crestview": 75462,
+        "oakember": 77005,
+        "pacific": 70948
+      }
+    },
+    {
+      "month": "2026-04",
+      "revenue": {
+        "northstar": 538612,
+        "helix": 335846,
+        "cascade": 306628,
+        "pinnacle": 227154,
+        "harbor": 198797,
+        "vertex": 191358,
+        "lumen": 173279,
+        "ironclad": 144780,
+        "maplewood": 138537,
+        "atlas": 123788,
+        "brightline": 121416,
+        "solstice": 110158,
+        "redwood": 98759,
+        "crestview": 83859,
+        "oakember": 75218,
+        "pacific": 72864
+      }
+    },
+    {
+      "month": "2026-05",
+      "revenue": {
+        "northstar": 499230,
+        "helix": 301070,
+        "cascade": 294713,
+        "pinnacle": 241209,
+        "harbor": 198568,
+        "vertex": 200195,
+        "lumen": 166215,
+        "ironclad": 148291,
+        "maplewood": 152897,
+        "atlas": 134371,
+        "brightline": 133781,
+        "solstice": 128078,
+        "redwood": 101189,
+        "crestview": 77021,
+        "oakember": 79325,
+        "pacific": 66017
+      }
+    },
+    {
+      "month": "2026-06",
+      "revenue": {
+        "northstar": 552955,
+        "helix": 293200,
+        "cascade": 310106,
+        "pinnacle": 266153,
+        "harbor": 213284,
+        "vertex": 219465,
+        "lumen": 169221,
+        "ironclad": 164292,
+        "maplewood": 144148,
+        "atlas": 124834,
+        "brightline": 130926,
+        "solstice": 127881,
+        "redwood": 106382,
+        "crestview": 84586,
+        "oakember": 81145,
+        "pacific": 73300
+      }
+    },
+    {
+      "month": "2026-07",
+      "revenue": {
+        "northstar": 567965,
+        "helix": 263111,
+        "cascade": 320903,
+        "pinnacle": 259399,
+        "harbor": 217774,
+        "vertex": 221496,
+        "lumen": 170776,
+        "ironclad": 167681,
+        "maplewood": 141034,
+        "atlas": 134343,
+        "brightline": 143828,
+        "solstice": 122238,
+        "redwood": 113593,
+        "crestview": 78412,
+        "oakember": 80936,
+        "pacific": 70351
+      }
+    },
+    {
+      "month": "2026-08",
+      "revenue": {
+        "northstar": 516683,
+        "helix": 297292,
+        "cascade": 317459,
+        "pinnacle": 271429,
+        "harbor": 205665,
+        "vertex": 219844,
+        "lumen": 192950,
+        "ironclad": 158069,
+        "maplewood": 137831,
+        "atlas": 119648,
+        "brightline": 123804,
+        "solstice": 130481,
+        "redwood": 105963,
+        "crestview": 87574,
+        "oakember": 84300,
+        "pacific": 67945
+      }
+    },
+    {
+      "month": "2026-09",
+      "revenue": {
+        "northstar": 549370,
+        "helix": 277831,
+        "cascade": 295694,
+        "pinnacle": 236717,
+        "harbor": 197227,
+        "vertex": 204660,
+        "lumen": 189711,
+        "ironclad": 166396,
+        "maplewood": 152381,
+        "atlas": 116164,
+        "brightline": 136596,
+        "solstice": 123407,
+        "redwood": 121414,
+        "crestview": 74738,
+        "oakember": 78340,
+        "pacific": 74908
+      }
+    }
+  ]
+}
