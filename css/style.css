@@ -1,0 +1,184 @@
+:root {
+  --paper: #f4efe4;
+  --ink: #241c14;
+  --muted: #6b5e4e;
+  --rule: #d2c4b0;
+  --card: #fffaf2;
+  --ok: #21543a;
+  --ok-bg: #e4f0e6;
+  --breach: #8a2e1f;
+  --breach-bg: #f7e4dc;
+  --sans: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.5;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+header {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.kicker {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0 0 0.4rem;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  margin: 0 0 0.75rem;
+}
+
+.lede {
+  margin: 0;
+  max-width: 42rem;
+  color: var(--muted);
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  margin: 0 0 0.75rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: 1rem 1.1rem 1.15rem;
+}
+
+.card h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 0.4rem;
+  color: var(--muted);
+}
+
+.card .value {
+  font-family: var(--serif);
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.card .mom,
+.card .target,
+.card .status,
+.card .note {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+}
+
+.card .note {
+  color: var(--muted);
+}
+
+.card.ok .status {
+  color: var(--ok);
+}
+
+.card.breach .status {
+  color: var(--breach);
+}
+
+.hint {
+  color: var(--muted);
+  margin: 0 0 0.9rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  background: var(--card);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid var(--rule);
+  white-space: nowrap;
+}
+
+thead th {
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: #efe6d6;
+}
+
+tbody th .label {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+td.ok {
+  background: var(--ok-bg);
+}
+
+td.breach {
+  background: var(--breach-bg);
+}
+
+.formulas ul {
+  padding-left: 1.2rem;
+}
+
+.formulas li {
+  margin-bottom: 0.6rem;
+}
+
+footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+code {
+  font-size: 0.85em;
+}
